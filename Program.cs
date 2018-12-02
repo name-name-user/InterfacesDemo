@@ -14,7 +14,7 @@ namespace InterfacesDemo
                 Ugluk.TakeDamage(Fingon.Attack(Ugluk.Armour));
                 Fingon.TakeDamage(Ugluk.Attack(Fingon.Armour));
                 Console.WriteLine($"Elf.Health = {Fingon.Health}, Orc.Health = {Ugluk.Health}");
-
+                Console.WriteLine(Winner = Ugluk)
             }
         }
     }
